@@ -7,6 +7,56 @@ body{
     background-color: black;
     color: white;
 }
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 100px;
+}
+.dom-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    width: 1300px;
+    margin: auto;
+}
+.movie{
+    width: 200px;
+    height: 350px;
+}
+.movie img{
+    width: 200px;
+    height: 250px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+.movie img:hover{
+    transform: scale(1.1);
+}
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+}
+.date{
+    font-size: 15px;
+    font-weight: 600;
+}
 button{
     font-weight: bold !important;
+}
+
+.img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid yellow;
 }
